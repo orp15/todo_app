@@ -5,5 +5,10 @@
     'author': 'Oscar Padilla',
     'application': True,
     'depends': ['base'],
-    'data':['views/todo_menu.xml','views/todo_view.xml'],
+    'data':[
+        'views/todo_menu.xml',
+        'views/todo_view.xml',
+        'security/todo_access_rules.xml',
+        'security/ir.model.access.csv',
+        ],
 }
